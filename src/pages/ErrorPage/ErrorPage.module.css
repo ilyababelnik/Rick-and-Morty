@@ -1,0 +1,21 @@
+.error__icon {
+    width: 100px;
+    height: auto;
+}
+
+.error__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.error__button {
+    margin: 0 auto;
+}
+
+.error__text {
+    font-size: 22px;
+}

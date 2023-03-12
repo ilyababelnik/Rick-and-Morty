@@ -1,0 +1,12 @@
+.error__img {
+    width: 30px;
+    height: auto;
+}
+
+.error__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}

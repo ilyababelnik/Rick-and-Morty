@@ -1,0 +1,31 @@
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        align-items: normal;
+    }
+}
+
+.logo {
+    max-width: 600px;
+    height: 200px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+
+.person__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 0 auto;
+    margin-bottom: 188px;
+    width: 100%;
+}

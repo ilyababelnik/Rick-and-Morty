@@ -1,0 +1,53 @@
+.wrapper {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1020px;
+    min-height: 40px;
+    margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        justify-content: space-around;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+    float: left;
+}
+
+.text {
+    font-weight: 500;
+    line-height: 21px;
+    margin-left: 5px;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.user__image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.user__name {
+    line-height: 30px;
+    margin-left: 10px;
+    font-family: ;
+}

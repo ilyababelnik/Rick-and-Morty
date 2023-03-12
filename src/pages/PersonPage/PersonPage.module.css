@@ -1,0 +1,54 @@
+.wrapper {
+    max-width: 1020px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 142px;
+}
+
+.person__img {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 70px;
+    border: 5px solid #F2F2F7;
+}
+
+@media (max-width: 900px) {
+    .person__img {
+        max-width: 225px;
+    }
+}
+
+@media (max-width: 400px) {
+    .person__img {
+        max-width: 150px;
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: calc(32px + 16 * (100vw / 1440));
+    line-height: 56px;
+    color: rgba(8, 31, 50, 1);
+    text-align: center;
+    word-break: break-all;
+    margin: 8px 15px 0;
+}
+
+@media (min-width: 767px) {
+    h2 {
+        font-size: calc(32px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
+    }
+}
+
+.person__information {
+    margin-top: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(142, 142, 147, 1);
+    letter-spacing: 0.15px;
+}
